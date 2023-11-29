@@ -26,12 +26,12 @@ const Skills = () => {
       count: 80,
 
     },
-    {
-      logo: 'logo-nodejs',
-      level: 'Node.js',
-      count: 40,
+    // {
+    //   logo: 'logo-nodejs',
+    //   level: 'Node.js',
+    //   count: 40,
 
-    },
+    // },
 
   ]
   return (
