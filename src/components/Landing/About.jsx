@@ -1,5 +1,5 @@
 import React from 'react';
-import resumeUrl from '../../Resume/roopacv.pdf'
+import resumeUrl from '../../Resume/roopauppar.pdf'
 import aboutwomen from '../../assets/images/aboutimg2.png';
 // import react_pdf from 'react_pdf';
 
@@ -28,10 +28,10 @@ const About = () => {
                         <div className='p-2'>
                             <div className='text-gray-300 my-3'>
                                 <p className='text-justify leading-7 w-11-12 mx-auto'>My name is Roopa, and I am an enthusiastic, self-motivated, and reliable individual who takes her responsibilities seriously. I pride myself on being a hardworking person who is dedicated to achieving goals and consistently meeting expectations. I thrive in a team environment, contributing positively and valuing collaboration, but I'm equally comfortable using my own initiative to tackle challenges. I am highly adaptable and can quickly adjust to different situations, finding innovative solutions when needed. One of my strengths is my ability to perform effectively under pressure, ensuring that I not only meet but exceed strict deadlines. This combination of qualities allows me to excel in various work settings and make a positive impact on any team or project.</p>
-                                <div className='flex mt-10 items-center gap-7 '>
+                                <div className='flex mt-10 items-center gap-7 text-center'>
                                     {
                                         info.map((content) => (
-                                            <div key={content.text}>
+                                            <div className="" key={content.text}>
                                                 <h3 className='md:text-4xl text-2xl font-semibold text-white'>
                                                     {content.count}<span className='text-cyan-600'>+</span>{""}</h3>
                                                 <span className='md:text-base text-xs'>{content.text}</span>
