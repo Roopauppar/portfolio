@@ -27,9 +27,9 @@ const Skills = () => {
 
     },
     // {
-    //   logo: 'logo-nodejs',
-    //   level: 'Node.js',
-    //   count: 40,
+    //   logo: 'logo-bootstrap',
+    //   level: 'Bootstrap5',
+    //   count: 85,
 
     // },
 
