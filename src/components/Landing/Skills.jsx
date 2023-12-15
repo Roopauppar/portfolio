@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import {html5,css3,javascript,react  } from '@fortawesome/free-solid-svg-icons' ;
 
 const Skills = () => {
   const skill = [
@@ -59,6 +61,7 @@ const Skills = () => {
                     className='w-32 h-32 flex items-center justify-center rounded-full'>
                     <div className='text-6xl group-hover:text-cyan-600 w-28 h-28 bg-gray-900 rounded-full flex items-center justify-center'>
                       <ion-icon name={skill.logo}></ion-icon>
+                      {/* <FontAwesomeIcon icon={skill.logo} /> */}
                     </div>
                   </div>
                   <p className='text-xl mt-2'>{skill.level}</p>
