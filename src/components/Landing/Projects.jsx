@@ -13,18 +13,21 @@ const Projects = () => {
   const projects=[{
     img: project1,
     name: "Expense Tracker",
+    tools:"Tools: HTML5, CSS3, Tailwind css, React.js",
     github_link: "https://github.com/Roopauppar/expensetracker",
     live_link:  "https://roopauppar.github.io/expensetracker/",
   },
   {
     img: project2,
     name: "My Mobile",
+    tools:"Tools: HTML5, CSS3, Tailwind css, React.js, Redux",
     github_link: "https://github.com/Roopauppar/my-mobile",
     live_link:  " https://roopauppar.github.io/my-mobile/",
   },
   {
     img: project3,
     name: "Car Service",
+    tools:"Tools: HTML5, CSS3, Javascript, React.js, Bootstrap",
     github_link: "https://github.com/Roopauppar/carservice-react",
     live_link:  "https://roopauppar.github.io/carservice-react/",
   },
@@ -71,6 +74,7 @@ const Projects = () => {
                 <div className='h-fit w-full p-4 bg-slate-700 rounded-xl'>
                   <img src={project_info.img} alt='' className='rounded-lg' />
                   <h3 className='text-xl my-4'>{project_info.name}</h3>
+                  <h6 className='text-sm my-4'>{project_info.tools}</h6>
                   <div className='flex gap-3'>
                     <a href={project_info.github_link} target="_blank" className='text-cyan-600 bg-gray-800 px-2 py-1 inline-block'>GitHub</a>
                     <a href={project_info.live_link}  target="_blank" className='text-cyan-600 bg-gray-800 px-2 py-1 inline-block'>Live Demo</a>
