@@ -40,7 +40,7 @@ const Contact = () => {
           </h3>
           <p className='text-gray-400 mt-3 text-lg'> Get in touch</p>
           <div className='mt-16 flex md:flex-row flex-col gap-6 max-w-5xl bg-gray-800 md:p-6 p-2 rounded-lg mx-auto'>
-            <form className="flex flex-col flex-1 gap-5" ref={form} onSubmit={sendEmail}>
+            {/* <form className="flex flex-col flex-1 gap-5" ref={form} onSubmit={sendEmail}>
               <input type='text' placeholder='Your Name' name="user_name"></input>
               <input type='email' placeholder='Your Email Address' name="user_email"></input>
               <textarea placeholder='Your Message' rows={10} name="message"></textarea>
@@ -48,7 +48,7 @@ const Contact = () => {
                 Send Message
               </button>
 
-            </form>
+            </form> */}
             <div className=' flex flex-col gap-7'>
               {
                 contact_info.map((contact, i) => (

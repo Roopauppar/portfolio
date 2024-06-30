@@ -7,7 +7,7 @@ import aboutwomen from '../../assets/images/aboutimg2.png';
 const About = () => {
     const info = [
         { text: 'Year experince', count: '2' },
-        { text: 'Completed Projects', count: '4' },
+        { text: 'Completed Projects', count: '5' },
         { text: 'Companies Work', count: '3' },
     ]
 
