@@ -1,5 +1,5 @@
 import React from 'react';
-import  { useRef } from 'react';
+import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -35,7 +35,7 @@ const Contact = () => {
               before:bottom-0 before:left-0 before:bg-white
               before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
               before:transition before:ease-in-out before:duration-300">
-            Contact <span className='text-cyan-600'>Me</span>
+              Contact <span className='text-cyan-600'>Me</span>
             </span>
           </h3>
           <p className='text-gray-400 mt-3 text-lg'> Get in touch</p>
